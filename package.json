@@ -4,11 +4,16 @@
   "description": "",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "jest"
   },
   "author": "Nikhil Shinde",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
